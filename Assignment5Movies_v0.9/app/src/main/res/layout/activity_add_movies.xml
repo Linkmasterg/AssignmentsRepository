@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/black"
+        android:text=" Add a Movie"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/movieTitle"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="43dp"
+        android:text="Howl's Moving Castle"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/movieDate"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="93dp"
+        android:text="June 10, 2005"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/movieFile"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="139dp"
+        android:text="/myMovies/HowlsCastle.mov"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/btnAddMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="327dp"
+        android:text="Add Movie"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/textMain"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Title:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="93dp"
+        android:gravity="center"
+        android:text="Date Released:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvFile"
+        android:layout_width="107dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/tvTitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="File:"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
